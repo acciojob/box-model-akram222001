@@ -1,40 +1,25 @@
 /*  your css code here. If applicable */
-body{
-	margin:0px;
-	padding:0px;
-}
-.continer{
+.container {
+    width: 300px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 2px solid black;
+    text-align: center;
+    border-radius: 50px;
 	background-color:#d3d3d3;
-	width:80%;
-	margin:40px;
-	padding:20px;
-	display:flex;
+  }
+.block{
+	width:80px;
+	height:80px;
 	border-radius:50px;
-	
+	display:inline-block;
 }
-.box1{
-	width:50px;
-	height:50px;
-	background-color:green;
-	border-radius:50px;
-	padding:20px;
-	margin:30px;
-	text-align:center;
+.red{
+	 background-color: red;
 }
-.box2{
-	width:50px;
-	height:50px;
-	background-color:yellow;
-	border-radius:50px;
-	padding:20px;
-	margin:30px;
-}
-.box3{
-	width:50px;
-	height:50px;
-	background-color:red;
-	border-radius:50px;
-	padding:20px;
-	margin:30px;
-}
+.green {
+    background-color: green;
+  }
 
+.yellow {
+    background-color: yellow;
